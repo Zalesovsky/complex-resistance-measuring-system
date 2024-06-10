@@ -1,5 +1,7 @@
 # complex-resistance-measuring-system 
 
+Этот пет-проект, который был выпущен 17 марта 2020 года.
+
 ## Описание проекта
 Этот проект предназначен для измерения комплексного сопротивления четырехполюсника на основе закона Ома для переменного тока. Устройство состоит из двух основных компонентов:
 1. Программа для микроконтроллера на Arduino (ARD4).
@@ -15,7 +17,7 @@ Z_x = (U_x / I_x) * e^φ
 
 <details><summary>Схема 1</summary>
 
-![Z_x](image.png)
+![схема1](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/9fe5ea9a-fb73-4b5b-b721-a9eef31a3681)
 
 </details>
 
@@ -26,7 +28,7 @@ I_x = U_ш / R_ш
 
 <details><summary>Схема 2</summary>
 
-![I_x](image-1.png)
+![схема2](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/0c648049-fbb9-4eef-8d5f-76f903d95833)
 
 </details>
 
@@ -38,7 +40,7 @@ I_x = U_ш / R_ш
 
 <details><summary>Схема измерительного устройства</summary>
 
-![Схема измерительного устройства](image-2.png)
+![схема0](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/5355cdd5-f43f-4467-8f01-8716fab9e47b)
 
 </details>
 
@@ -46,8 +48,8 @@ I_x = U_ш / R_ш
 
 <details><summary>Трассировка платы</summary>
 
-![компоновка](компоновка.jpg)
-![трассировка низ](<трассировка низ.jpg>)
+![компоновка](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/ec30c8ec-519a-4304-8cba-9b4526778050)
+![трассировка низ](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/5d1879f8-7770-4f85-a55e-86f84717bb0e)
 
 </details>
 
@@ -60,8 +62,8 @@ I_x = U_ш / R_ш
 
 <details><summary>Преобразование ШИМ-сигнала в синусоидальный</summary>
 
-![ШИМ-1](график2.jpg) 
-![ШИМ-2](график3.jpg)
+![график3](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/15bba517-b565-451e-9eed-5bbf0a0a5137)
+![график2](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/39c1a462-149b-42a2-884d-b59f01b7fcb2)
 
 </details>
 
@@ -72,8 +74,8 @@ I_x = U_ш / R_ш
 
 <details><summary>Определение амплитуды сигнала</summary>
 
-![Схема 3](image-5.png)
-![Амплитуда сигнала](график1.jpg)
+![график4](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/a4b9ce5f-c9c2-4980-9121-492bcd6098d4)
+![график1](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/0830f8d9-3a24-4fc2-8a4f-c05a04a1db47)
 
 </details>
 
@@ -86,9 +88,9 @@ I_x = U_ш / R_ш
     - МК фиксирует моменты времени t1, t2 и t3.
 
 <details><summary>Определение моментов времени </summary>
-
-![Схема 4](график5.BMP)
-![Моменты времени](график6.jpg)
+    
+![график5](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/51f42c21-f772-4b2e-8537-ac942ef940b0)
+![график6](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/c2a2af6c-7ef8-49ce-ac48-80222ad463c4)
 
 </details>    
 
@@ -106,7 +108,7 @@ I_x = U_ш / R_ш
 
 <details><summary>Структура пакета</summary>
 
-![Структура пакета](схема3.BMP)
+![схема3](https://github.com/Zalesovsky/complex-resistance-measuring-system/assets/49143456/d94b0d6c-1360-412e-a2a8-e73ee58ef381)
 
 </details>  
 
@@ -134,5 +136,3 @@ I_x = U_ш / R_ш
 - Arduino (ATmega328P).
 - Приложение Windows Forms для управления устройством.
 - COM-порт для связи между ПК и Arduino.
-
----
